@@ -14,6 +14,7 @@
   import { onMount } from "svelte";
   import SearchInput from "../../features/search/SearchInput.svelte";
   import FilterButton from "./components/filter/FilterButton.svelte";
+   import CustomizeButton from "./components/customize/CustomizeButton.svelte"; // + Import CustomizeButton
   import GetVIPLink from "./components/GetVIPLink.svelte";
   import JoinTraktButton from "./components/JoinTraktButton.svelte";
   import TraktLogo from "./components/TraktLogo.svelte";
@@ -128,6 +129,7 @@
           <GetVIPLink />
         {/if}
         <FilterButton />
+          <CustomizeButton /> // + Add CustomizeButton
         <ProfileButton />
       </RenderFor>
     </div>
