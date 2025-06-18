@@ -1,8 +1,8 @@
 <script lang="ts">
   import { writable } from 'svelte/store';
   import * as m from '$lib/features/i18n/messages';
-  import { Filter as FilterIcon } from 'lucide-svelte'; // Placeholder icon
-  import Tooltip from '$lib/components/Tooltip.svelte';
+  import { Palette as CustomizeIcon } from 'lucide-svelte'; // Changed to Palette icon
+  import Tooltip from '@svelte-plugins/tooltips'; // Corrected Tooltip import
   import CustomizeSidebar from './CustomizeSidebar.svelte';
 
   /**
@@ -28,7 +28,7 @@
   aria-label={m.customize_label()}
   on:click={toggleSidebar}
 >
-  <FilterIcon class="h-7 w-7 p-1" /> <!-- Placeholder: Replace with a customization-specific icon -->
+  <CustomizeIcon class="h-7 w-7 p-1" />
   <Tooltip position="left" text={m.customize_label()} />
 </button>
 
