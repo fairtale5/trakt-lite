@@ -34,6 +34,7 @@
     "npm:globals@16.2.0": "16.2.0",
     "npm:idb-keyval@^6.2.2": "6.2.2",
     "npm:jsdom@26.1.0": "26.1.0",
+    "npm:lucide-svelte@0.517": "0.517.0_svelte@5.33.14__acorn@8.14.1",
     "npm:marked@15.0.12": "15.0.12",
     "npm:msw@2.7.3": "2.7.3_typescript@5.8.3",
     "npm:playwright@1.52.0": "1.52.0",
@@ -4691,6 +4692,12 @@
         "yallist"
       ]
     },
+    "lucide-svelte@0.517.0_svelte@5.33.14__acorn@8.14.1": {
+      "integrity": "sha512-CtnL3WSxfY8A8wAplmKO1ZdVBHIx0TLHErlgyw5zZge6ayO67MhtoE+RzTvgvDEaugqX8CvQTFjAe48m+dCYZg==",
+      "dependencies": [
+        "svelte"
+      ]
+    },
     "luxon@3.6.1": {
       "integrity": "sha512-tJLxrKJhO2ukZ5z0gyjY1zPh3Rh88Ej9P7jNrZiHMUXHae1yvI2imgOZtL1TO8TW6biMMKfTtAOoEJANgtWBMQ=="
     },
@@ -6801,6 +6808,7 @@
             "npm:globals@16.2.0",
             "npm:idb-keyval@^6.2.2",
             "npm:jsdom@26.1.0",
+            "npm:lucide-svelte@0.517",
             "npm:marked@15.0.12",
             "npm:msw@2.7.3",
             "npm:playwright@1.52.0",
