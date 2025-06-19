@@ -66,8 +66,8 @@
 </script>
 
 {#if listId && listName}
+  <!-- A type to indicate these are items within a list, not lists themselves -->
   <DrillableMediaList
-    // A type to indicate these are items within a list, not lists themselves
     type="list-items"
     id={`custom-list-${listId}`}
     title={$title}
