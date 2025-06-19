@@ -1,8 +1,8 @@
 <script lang="ts">
   import { writable } from 'svelte/store';
   import * as m from '$lib/features/i18n/messages';
-  import { Palette as CustomizeIcon } from 'lucide-svelte'; // Changed to Palette icon
   import Tooltip from '@svelte-plugins/tooltips'; // Corrected Tooltip import
+  import SwitchIcon from '$lib/components/icons/SwitchIcon.svelte'; // Use project's SwitchIcon
   import CustomizeSidebar from './CustomizeSidebar.svelte';
 
   /**
@@ -28,7 +28,7 @@
   aria-label={m.customize_label()}
   on:click={toggleSidebar}
 >
-  <CustomizeIcon class="h-7 w-7 p-1" />
+  <SwitchIcon class="h-7 w-7 p-1" /> {/* Use project's SwitchIcon */}
   <Tooltip position="left" text={m.customize_label()} />
 </button>
 

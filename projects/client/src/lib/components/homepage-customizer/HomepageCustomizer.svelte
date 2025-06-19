@@ -2,7 +2,7 @@
   import { homepageConfig, type HomepageSection } from '$lib/features/homepage-customizer/homepageConfigStore';
   import * as m from '$lib/features/i18n/messages';
   import { dndzone } from 'svelte-dnd-action';
-  import { X } from 'lucide-svelte';
+  import CloseIcon from '$lib/components/icons/CloseIcon.svelte'; // Import project's CloseIcon
   import { derived, writable } from 'svelte/store';
   import ManageCustomListsModal from './ManageCustomListsModal.svelte';
 
@@ -89,7 +89,7 @@
                 title="Disable section"
                 on:click={() => toggleOrRemoveSection(section)}
               >
-                <X size={18} />
+                <CloseIcon /> {/* Use project's CloseIcon */}
               </button>
             </li>
           {/each}
