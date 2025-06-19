@@ -28,7 +28,8 @@
   aria-label={m.customize_label()}
   on:click={toggleSidebar}
 >
-  <SwitchIcon class="h-7 w-7 p-1" /> {/* Use project's SwitchIcon */}
+  {/* Use project's SwitchIcon */}
+  <SwitchIcon class="h-7 w-7 p-1" />
   <Tooltip position="left" text={m.customize_label()} />
 </button>
 
