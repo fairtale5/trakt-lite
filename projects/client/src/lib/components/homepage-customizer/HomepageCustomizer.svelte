@@ -124,7 +124,7 @@
 </div>
 
 {#if $isModalOpen}
-  <ManageCustomListsModal bind:isOpen={isModalOpen} />
+  <ManageCustomListsModal isOpen={isModalOpen} />
 {/if}
 
 <style>

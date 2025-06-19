@@ -1,7 +1,7 @@
 <script lang="ts">
   import { page } from '$app/stores';
-  import RenderFor from '$lib/components/RenderFor.svelte';
-  import Redirect from '$lib/components/Redirect.svelte';
+  import RenderFor from '$lib/guards/RenderFor.svelte'; // Corrected path
+  import Redirect from '$lib/components/router/Redirect.svelte'; // Corrected path
   import Landing from '$lib/sections/landing/Landing.svelte';
 
   // Imports for homepage customization
