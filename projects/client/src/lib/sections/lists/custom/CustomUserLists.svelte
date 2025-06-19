@@ -5,7 +5,7 @@
   import { UrlBuilder } from '$lib/utils/url/UrlBuilder';
   import { useUser } from '$lib/features/auth/stores/useUser';
   import type { ListedItem } from '$lib/requests/queries/users/userListItemsQuery';
-  import { derived }_from_ 'svelte/store'; // Corrected import
+  import { derived } from 'svelte/store'; // Corrected import syntax
 
   /**
    * What: This component displays the items of a single, specific custom Trakt list.
